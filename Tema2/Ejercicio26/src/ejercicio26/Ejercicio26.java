@@ -5,11 +5,16 @@
 package ejercicio26;
 
 import java.util.Scanner;
-
+// No he querido borrar este ejercicio , por que mas adelante se supone 
+//que podria hacerse asi , asi que queria dejarlo para corregir en un futuro.
 public class Ejercicio26 {
 
     
     public static void main(String[] args) {
+        //La idea de realizarlo así , es por que de la forma realizada en clase
+        //se podia ingresar mas de 4 numeros y no sabia como podia hacer para 
+        // que esto no fuera asi , asi que se me ocurrio hacerlo de esta forma.
+        
         Scanner entrada1 = new Scanner(System.in);
         
         System.out.print("introduzca numero1: ");
@@ -27,7 +32,8 @@ public class Ejercicio26 {
         System.out.print("introduzca numero4: ");
         int num4 = entrada3.nextInt();
 
-       // Mal :(
+       // Mal, no se como concatenar los numeros para que me salga de resultado
+       // el numero entero introducido.
         int suma = num1 + num2 + num3 + num4;
         
         System.out.println("Tu numero es: " + suma);

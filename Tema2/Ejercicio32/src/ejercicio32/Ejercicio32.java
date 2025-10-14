@@ -36,7 +36,8 @@ public class Ejercicio32 {
       cantidad2 = (((numero % CINCUENTA)%VEINTE)% DIEZ)/DOS ;
 
       cantidad1 = ((((numero % CINCUENTA)%VEINTE)% DIEZ)%DOS) /UNO ;
-        
+       
+      System.out.println("Su cantidad total es = " + numero);
       System.out.println("Billetes de 50 = " + cantidad50);
       System.out.println("Billetes de 20 = " + cantidad20);
       System.out.println("Billetes de 10 = " + cantidad10);
