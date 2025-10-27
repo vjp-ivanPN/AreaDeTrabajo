@@ -16,7 +16,8 @@ public class Ejercicio22 {
     public static void main(String[] args) {
         int numero1 , numero2;
         int resultado;
-       try {
+       
+        try {
            System.out.println("Introduce el primer dígito = ");
            Scanner entrada = new Scanner(System.in);
            numero1= entrada.nextInt();

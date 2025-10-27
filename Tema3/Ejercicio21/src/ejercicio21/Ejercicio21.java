@@ -11,15 +11,18 @@ public class Ejercicio21 {
         
         int numero1 , numero2;
         float resultado;
-       try {
+       
            System.out.println("Introduce el primer dígito = ");
            Scanner entrada1 = new Scanner(System.in);
            numero1= entrada1.nextInt();
            System.out.println("Introduzca el segundo dígito");
            Scanner entrada2 = new Scanner(System.in);
            numero2 = entrada2.nextInt();
+        
+        try {
+          
            resultado = numero1 / numero2 ;
-           System.out.println("Division Num1 / Num2 = " + numero1 + " / " + numero2 );
+           System.out.println("Division Num1 / Num2 = "  +resultado );
        }
        catch (ArithmeticException e){
            
