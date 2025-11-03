@@ -8,7 +8,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio2 {
-// En este ejercicio , no lo hice con bucles por que no lo pedia el enunciado
     
     public static void main(String[] args) {
         int numero1, numero2;
