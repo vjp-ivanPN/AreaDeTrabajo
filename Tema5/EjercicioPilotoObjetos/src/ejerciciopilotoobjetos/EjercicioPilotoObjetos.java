@@ -12,15 +12,17 @@ public class EjercicioPilotoObjetos {
 
     public static void main(String[] args) {
         // Crearemos dos coches o instaciamos dos objetos
-      Coche miCoche = new Coche();  
-        System.out.println(miCoche.toString()); 
-        miCoche.setEspejos(4);
-        System.out.println(miCoche.toString());
+     // Coche miCoche = new Coche();  
+      //  System.out.println(miCoche.toString()); 
+       // miCoche.setEspejos(4);
+       // System.out.println(miCoche.toString());
         // Aqui le ponemos los parametros directamente
-        Coche tuCoche= new Coche("Michelin","Bajo",3);
-        System.out.println(tuCoche.toString());
-        System.out.println(tuCoche.getRuedas());
-        
+       // Coche tuCoche= new Coche("Michelin","Bajo",3);
+       // System.out.println(tuCoche.toString());
+       // System.out.println(tuCoche.getRuedas());
+        Bicicleta bicicleta=new Bicicleta();
+        System.out.println("Cuantas bicis hemos creado");
+        System.out.println(bicicleta.getRuedas());
     }
    
     
