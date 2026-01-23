@@ -17,9 +17,11 @@ public class PedirTemp {
        // No se por que pero cuando salta el error , salta pero aun asi sigue contando como si fuera la siguiente posicion del array
         boolean error= false;
         int temperatura =0;
-        do {            
+        Scanner entrada = new Scanner(System.in);
+        do { 
+            
             try {
-             Scanner entrada = new Scanner(System.in);
+             
         System.out.println("Por favor introduzca la temperatura Dia "+diaMes+"  ("+diaSemana+")");
     
         temperatura = entrada.nextInt();
@@ -27,7 +29,8 @@ public class PedirTemp {
         } catch (InputMismatchException e) {
             System.out.println("Por favror introduzca un numero "+ e);
             error=true;
-            
+           
+            entrada.nextLine();
         }
           return temperatura;
   
